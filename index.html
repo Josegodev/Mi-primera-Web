@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DesignMasters</title>
+    <meta
+      name="description"
+      content="Landing page de DesignMasters para formación en diseño UI/UX."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a class="brand" href="#top">DesignMasters</a>
+        <nav class="header-actions" aria-label="Acciones principales">
+          <a class="icon-button" href="#programa" aria-label="Ver programa">
+            <span class="icon-cart" aria-hidden="true"></span>
+          </a>
+          <a class="icon-button" href="#footer-nav" aria-label="Ir al pie de pagina">
+            <span class="icon-menu" aria-hidden="true"></span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="container hero-content">
+          <p class="eyebrow">Academia de elite</p>
+          <h1>Domina el Diseño UI/UX</h1>
+          <p class="hero-text">
+            De principiante a profesional con proyectos reales y mentoría
+            personalizada.
+          </p>
+          <a class="primary-button" href="#pricing">Inscríbete ahora</a>
+          <a class="scroll-indicator" href="#programa" aria-label="Bajar a programa">
+            <span aria-hidden="true">⌄</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="section section-program" id="programa">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Syllabus del Programa</p>
+            <span class="section-line" aria-hidden="true"></span>
+          </div>
+
+          <div class="card-grid">
+            <article class="info-card">
+              <div class="card-icon icon-purple" aria-hidden="true">✦</div>
+              <div>
+                <p class="card-label">Módulo 01</p>
+                <h2>Fundamentos</h2>
+                <p>
+                  Psicología del color, tipografía y principios de composición
+                  visual aplicados a interfaces digitales.
+                </p>
+              </div>
+            </article>
+
+            <article class="info-card">
+              <div class="card-icon icon-blue" aria-hidden="true">↗</div>
+              <div>
+                <p class="card-label">Módulo 02</p>
+                <h2>Herramientas</h2>
+                <p>
+                  Dominio experto de Figma: componentes, auto-layout,
+                  prototipado avanzado y sistemas de diseño.
+                </p>
+              </div>
+            </article>
+
+            <article class="info-card info-card-featured">
+              <div class="card-icon icon-outline" aria-hidden="true">✪</div>
+              <div>
+                <p class="card-label">Módulo 03</p>
+                <h2>Proyectos Finales</h2>
+                <p>
+                  Construye un portafolio de nivel senior con casos de estudio
+                  reales listos para el mercado laboral.
+                </p>
+              </div>
+              <span class="card-decor" aria-hidden="true">🚀</span>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-testimonials">
+        <div class="container">
+          <div class="section-heading">
+            <p class="section-kicker">Lo que dicen nuestros alumnos</p>
+            <span class="section-line" aria-hidden="true"></span>
+          </div>
+
+          <div class="testimonial-list">
+            <article class="testimonial-card">
+              <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+              <blockquote>
+                “El curso cambió totalmente mi perspectiva. Ahora trabajo en un
+                startup de Londres como Senior UI Designer.”
+              </blockquote>
+              <div class="person">
+                <div class="avatar avatar-one" aria-hidden="true">E</div>
+                <div>
+                  <p class="person-name">Elena Rodríguez</p>
+                  <p class="person-role">UX Designer @ TechFlow</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="testimonial-card">
+              <p class="stars" aria-label="5 de 5 estrellas">★★★★★</p>
+              <blockquote>
+                “La metodología práctica es increíble. No solo aprendes a
+                diseñar, sino a resolver problemas de negocio reales.”
+              </blockquote>
+              <div class="person">
+                <div class="avatar avatar-two" aria-hidden="true">M</div>
+                <div>
+                  <p class="person-name">Marco Valente</p>
+                  <p class="person-role">Freelance Product Designer</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-pricing" id="pricing">
+        <div class="container">
+          <article class="pricing-card">
+            <p class="pricing-small">Comienza tu carrera hoy</p>
+            <p class="pricing-text">
+              Acceso de por vida a todo el contenido y actualizaciones.
+            </p>
+            <p class="pricing-old">$399</p>
+            <p class="pricing-value">$199</p>
+            <a class="secondary-button" href="#top">Inscríbete por $199</a>
+            <p class="pricing-note">
+              Garantía de reembolso de 14 días sin preguntas.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-content">
+        <div>
+          <a class="brand brand-footer" href="#top">DesignMasters</a>
+          <p class="footer-text">
+            Transformando el futuro del diseño digital a través de una
+            educación de alto nivel.
+          </p>
+        </div>
+
+        <div class="footer-links" id="footer-nav">
+          <div>
+            <h2>Syllabus</h2>
+            <a href="#programa">Programa</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#top">Contact</a>
+          </div>
+          <div>
+            <h2>Mentors</h2>
+            <a href="#top">Privacy Policy</a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2024 DesignMasters Academy. All rights reserved.</p>
+          <a class="chat-button" href="#top" aria-label="Abrir chat">◔</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
