@@ -95,6 +95,16 @@ img {
   cursor: pointer;
 }
 
+.text-button {
+  width: auto;
+  min-width: 0;
+  padding: 0 14px;
+  border: 1px solid rgba(31, 45, 93, 0.12);
+  background: rgba(255, 255, 255, 0.72);
+  font-size: 0.88rem;
+  font-weight: 700;
+}
+
 .icon-button:hover,
 .icon-button:focus-visible {
   background: rgba(51, 16, 122, 0.08);
@@ -210,6 +220,12 @@ img {
   line-height: 1.7;
 }
 
+.hero-actions-group {
+  width: 100%;
+  display: grid;
+  gap: 12px;
+}
+
 .primary-button,
 .secondary-button {
   min-width: 100%;
@@ -274,11 +290,28 @@ img {
   color: var(--text);
 }
 
+.section-title {
+  margin: 0;
+  max-width: 18ch;
+  font-family: "Sora", "Segoe UI", sans-serif;
+  font-size: clamp(1.9rem, 6vw, 3rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
 .section-line {
   width: 58px;
   height: 4px;
   border-radius: 999px;
   background: linear-gradient(90deg, #2f0e72 0%, #276cff 100%);
+}
+
+.section-body {
+  max-width: 72ch;
+  margin: 0 auto 28px;
+  color: var(--muted);
+  text-align: center;
+  line-height: 1.75;
 }
 
 .card-grid,
@@ -445,7 +478,6 @@ blockquote {
 
 .pricing-small,
 .pricing-text,
-.pricing-old,
 .pricing-note {
   margin: 0;
 }
@@ -475,14 +507,61 @@ blockquote {
   letter-spacing: -0.05em;
 }
 
-.pricing-card .secondary-button {
+.pricing-title {
+  margin: 10px 0 0;
+  font-family: "Sora", "Segoe UI", sans-serif;
+  font-size: clamp(1.8rem, 6vw, 2.8rem);
+  line-height: 1.05;
+  letter-spacing: -0.04em;
+}
+
+.cta-actions {
   margin-top: 20px;
+  display: grid;
+  gap: 12px;
 }
 
 .pricing-note {
   margin-top: 14px;
   font-size: 0.8rem;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.flow-grid {
+  display: grid;
+  gap: 18px;
+}
+
+.step-card {
+  padding: 22px 20px;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 8px 24px rgba(29, 42, 89, 0.06);
+}
+
+.step-number {
+  width: 36px;
+  height: 36px;
+  margin: 0 0 14px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, #2f8fff 0%, #1660d8 100%);
+  color: #fff;
+  font-weight: 800;
+}
+
+.step-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.08rem;
+}
+
+.step-card p:last-child {
+  margin: 0;
+  color: var(--muted);
+  line-height: 1.65;
 }
 
 .site-footer {
@@ -573,11 +652,22 @@ blockquote {
     min-width: 280px;
   }
 
+  .hero-actions-group,
+  .cta-actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   .card-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .testimonial-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .flow-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -608,5 +698,9 @@ blockquote {
 
   .section {
     padding: 88px 0;
+  }
+
+  .flow-grid {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 }
