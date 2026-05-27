@@ -1,405 +1,384 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mi Primera Web | Aprende a crear y publicar con GitHub</title>
-    <meta
-      name="description"
-      content="Proyecto open source para aprender a crear una web sencilla, versionarla con GitHub y publicarla paso a paso."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Sora:wght@600;700;800&amp;display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-bar">
-        <a class="brand" href="#top">Mi Primera Web</a>
-        <nav class="header-actions" aria-label="Acciones principales">
-          <a
-            class="icon-button text-button"
-            href="https://github.com/Josegodev/Mi-primera-Web"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-          <a class="icon-button text-button" href="#guia">Guía</a>
-        </nav>
-      </div>
-    </header>
 
-    <main id="top">
-      <section class="hero">
-        <div class="container hero-content">
-          <p class="eyebrow">Proyecto open source y educativo</p>
-          <h1>Crea tu primera web y aprende a publicarla con GitHub</h1>
-          <p class="hero-text">
-            Un proyecto open source para aprender diseño web básico, control de
-            versiones y publicación de páginas de forma práctica.
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Primera Web | Aprende a crear y publicar con GitHub</title>
+  <meta name="description"
+    content="Proyecto open source para aprender a crear una web sencilla, versionarla con GitHub y publicarla paso a paso." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;family=Sora:wght@600;700;800&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="#top">Mi Primera Web</a>
+      <nav class="header-actions" aria-label="Acciones principales">
+        <a class="icon-button text-button" href="https://github.com/Josegodev/Mi-primera-Web" target="_blank"
+          rel="noreferrer">
+          GitHub
+        </a>
+        <a class="icon-button text-button" href="#guia">Guía</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-content">
+        <p class="eyebrow">Proyecto open source y educativo</p>
+        <h1>Mi Primera Web</h1>
+        <p class="hero-text">
+          Un proyecto open source para aprender diseño web básico, control de
+          versiones y publicación de páginas de forma práctica.
+        </p>
+        <div class="hero-actions-group">
+          <a class="primary-button" href="https://github.com/Josegodev/Mi-primera-Web" target="_blank" rel="noreferrer">
+            Ver proyecto en GitHub
+          </a>
+          <a class="secondary-button" href="#guia">Empezar guía paso a paso</a>
+        </div>
+        <a class="scroll-indicator" href="#problema" aria-label="Bajar a la explicación">
+          <span aria-hidden="true">⌄</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section" id="problema">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Por qué nace este proyecto</p>
+          <h2 class="section-title">Crear una web sencilla debería ser más fácil</h2>
+          <span class="section-line" aria-hidden="true"></span>
+        </div>
+        <p class="section-body">
+          Muchas personas quieren crear una página web básica, pero se pierden
+          entre carpetas, archivos, hosting, GitHub y despliegue. Este
+          proyecto intenta reducir esa barrera con una base simple, explicada
+          paso a paso y pensada para aprender haciendo.
+        </p>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <div class="card-icon icon-purple" aria-hidden="true">?</div>
+            <div>
+              <p class="card-label">Problema</p>
+              <h2>Demasiadas piezas al empezar</h2>
+              <p>
+                HTML, CSS, imágenes, carpetas, Git y publicación suelen
+                aparecer a la vez, y eso genera bloqueo en quienes empiezan.
+              </p>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon icon-blue" aria-hidden="true">✓</div>
+            <div>
+              <p class="card-label">Solución</p>
+              <h2>Una plantilla base clara</h2>
+              <p>
+                El repositorio ofrece una web inicial, textos editables y una
+                estructura sencilla para practicar sin depender de herramientas
+                complejas.
+              </p>
+            </div>
+          </article>
+
+          <article class="info-card info-card-featured">
+            <div class="card-icon icon-outline" aria-hidden="true">↺</div>
+            <div>
+              <p class="card-label">Enfoque</p>
+              <h2>Aprender modificando</h2>
+              <p>
+                La idea no es vender un curso, sino enseñar cómo cambiar una
+                web, guardar versiones y compartir mejoras de forma
+                colaborativa.
+              </p>
+            </div>
+            <span class="card-decor" aria-hidden="true">💡</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="aprendizaje">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Qué aprenderás</p>
+          <h2 class="section-title">Conceptos básicos con uso práctico real</h2>
+          <span class="section-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="card-grid">
+          <article class="info-card">
+            <div class="card-icon icon-purple" aria-hidden="true">1</div>
+            <div>
+              <p class="card-label">Base web</p>
+              <h2>Estructura de una página</h2>
+              <p>
+                Entenderás cómo se organizan cabecera, secciones, enlaces y
+                contenido dentro de un documento HTML.
+              </p>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon icon-blue" aria-hidden="true">2</div>
+            <div>
+              <p class="card-label">Contenido</p>
+              <h2>Modificar textos e imágenes</h2>
+              <p>
+                Aprenderás a cambiar títulos, descripciones, llamadas a la
+                acción, imágenes y elementos visibles sin romper la página.
+              </p>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon icon-purple" aria-hidden="true">3</div>
+            <div>
+              <p class="card-label">Estilos</p>
+              <h2>Ajustar colores y diseño</h2>
+              <p>
+                Verás cómo retocar estilos CSS para adaptar el aspecto visual
+                a tu proyecto sin rehacer toda la maquetación.
+              </p>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon icon-blue" aria-hidden="true">4</div>
+            <div>
+              <p class="card-label">Git y GitHub</p>
+              <h2>Guardar versiones con seguridad</h2>
+              <p>
+                Practicarás lo básico de Git y GitHub para subir cambios,
+                compararlos y mantener un historial claro del proyecto.
+              </p>
+            </div>
+          </article>
+
+          <article class="info-card">
+            <div class="card-icon icon-purple" aria-hidden="true">5</div>
+            <div>
+              <p class="card-label">Publicación</p>
+              <h2>Publicar una web sencilla</h2>
+              <p>
+                El objetivo final es que puedas tener una página visible y
+                compartirla sin miedo a perder el control de tu trabajo.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-testimonials" id="para-quien">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Para quién es</p>
+          <h2 class="section-title">Pensado para empezar con una base comprensible</h2>
+          <span class="section-line" aria-hidden="true"></span>
+        </div>
+
+        <div class="testimonial-list">
+          <article class="testimonial-card">
+            <blockquote>
+              Un punto de partida útil para alumnado que necesita entender
+              cómo se construye una web sencilla desde cero.
+            </blockquote>
+            <div class="person">
+              <div class="avatar avatar-one" aria-hidden="true">A</div>
+              <div>
+                <p class="person-name">Alumnado</p>
+                <p class="person-role">Primeros pasos en HTML, CSS y GitHub</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <blockquote>
+              Un recurso reutilizable para docentes que quieran enseñar con un
+              ejemplo editable, claro y fácil de compartir.
+            </blockquote>
+            <div class="person">
+              <div class="avatar avatar-two" aria-hidden="true">D</div>
+              <div>
+                <p class="person-name">Docentes</p>
+                <p class="person-role">Material base para prácticas guiadas</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <blockquote>
+              Una guía práctica para personas que empiezan con programación y
+              todavía no dominan la estructura de un proyecto web.
+            </blockquote>
+            <div class="person">
+              <div class="avatar avatar-one" aria-hidden="true">P</div>
+              <div>
+                <p class="person-name">Personas principiantes</p>
+                <p class="person-role">Aprendizaje paso a paso sin exceso técnico</p>
+              </div>
+            </div>
+          </article>
+
+          <article class="testimonial-card">
+            <blockquote>
+              Una base ligera para autónomos o pequeños equipos que necesitan
+              una primera página editable y fácil de mantener.
+            </blockquote>
+            <div class="person">
+              <div class="avatar avatar-two" aria-hidden="true">E</div>
+              <div>
+                <p class="person-name">Autónomos y equipos pequeños</p>
+                <p class="person-role">Proyectos simples con control de cambios</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-pricing" id="opensource">
+      <div class="container">
+        <article class="pricing-card">
+          <p class="pricing-small">Open source de verdad</p>
+          <h2 class="pricing-title">Copia, modifica, mejora y comparte</h2>
+          <p class="pricing-text">
+            Este proyecto está pensado para que puedas usarlo como plantilla,
+            practicar cambios, adaptarlo a tus necesidades y aprender a
+            colaborar desde GitHub con un flujo de trabajo sencillo.
           </p>
-          <div class="hero-actions-group">
-            <a
-              class="primary-button"
-              href="https://github.com/Josegodev/Mi-primera-Web"
-              target="_blank"
-              rel="noreferrer"
-            >
+          <p class="pricing-value">Open source</p>
+          <div class="cta-actions">
+            <a class="secondary-button" href="https://github.com/Josegodev/Mi-primera-Web" target="_blank"
+              rel="noreferrer">
+              Explorar repositorio
+            </a>
+            <a class="primary-button" href="#aprendizaje">Ver qué aprenderás</a>
+          </div>
+          <p class="pricing-note">
+            Sin descuentos ficticios, sin planes premium y sin contenido
+            bloqueado.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="guia">
+      <div class="container">
+        <div class="section-heading">
+          <p class="section-kicker">Flujo de trabajo</p>
+          <h2 class="section-title">Cinco pasos para llevar la web a producción</h2>
+          <span class="section-line" aria-hidden="true"></span>
+        </div>
+        <p class="section-body">
+          La meta es que entiendas el proceso completo: obtener la plantilla,
+          cambiarla, guardar versiones, subirlas a GitHub y publicar una
+          página funcional.
+        </p>
+
+        <div class="flow-grid">
+          <article class="step-card">
+            <p class="step-number">1</p>
+            <h3>Descargar o clonar el proyecto</h3>
+            <p>Empieza con una copia local del repositorio para poder editarla.</p>
+          </article>
+
+          <article class="step-card">
+            <p class="step-number">2</p>
+            <h3>Modificar la plantilla</h3>
+            <p>Cambia textos, imágenes, estilos y secciones según tu objetivo.</p>
+          </article>
+
+          <article class="step-card">
+            <p class="step-number">3</p>
+            <h3>Guardar cambios con Git</h3>
+            <p>Haz pequeños commits para mantener un historial comprensible.</p>
+          </article>
+
+          <article class="step-card">
+            <p class="step-number">4</p>
+            <h3>Subir cambios a GitHub</h3>
+            <p>Comparte el progreso y deja el proyecto accesible para revisarlo.</p>
+          </article>
+
+          <article class="step-card">
+            <p class="step-number">5</p>
+            <h3>Publicar la web</h3>
+            <p>Muestra el resultado final y sigue mejorándolo versión a versión.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-pricing" id="participar">
+      <div class="container">
+        <article class="pricing-card">
+          <p class="pricing-small">Siguiente paso</p>
+          <h2 class="pricing-title">Explora la plantilla y crea tu primera página</h2>
+          <p class="pricing-text">
+            Si quieres aprender con un ejemplo real, recorre el repositorio,
+            modifica esta base y úsala para publicar una web sencilla con tu
+            propio contenido.
+          </p>
+          <div class="cta-actions">
+            <a class="secondary-button" href="https://github.com/Josegodev/Mi-primera-Web" target="_blank"
+              rel="noreferrer">
               Ver proyecto en GitHub
             </a>
-            <a class="secondary-button" href="#guia">Empezar guía paso a paso</a>
+            <a class="primary-button" href="#top">Volver al inicio</a>
           </div>
-          <a class="scroll-indicator" href="#problema" aria-label="Bajar a la explicación">
-            <span aria-hidden="true">⌄</span>
+          <p class="pricing-note">
+            Ideal para aprender paso a paso, practicar cambios pequeños y
+            entender cómo se versiona una web.
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <a class="brand brand-footer" href="#top">Mi Primera Web</a>
+        <p class="footer-text">
+          Proyecto abierto para aprender HTML, CSS, Git y GitHub con una web
+          sencilla, modificable y fácil de publicar.
+        </p>
+      </div>
+
+      <div class="footer-links" id="footer-nav">
+        <div>
+          <h2>Proyecto</h2>
+          <a href="#problema">Problema y enfoque</a>
+          <a href="#opensource">Open source</a>
+          <a href="#participar">Cómo participar</a>
+        </div>
+        <div>
+          <h2>Guía</h2>
+          <a href="#aprendizaje">Qué aprenderás</a>
+          <a href="#guia">Flujo de trabajo</a>
+          <a href="https://github.com/Josegodev/Mi-primera-Web" target="_blank" rel="noreferrer">
+            Repositorio en GitHub
           </a>
         </div>
-      </section>
-
-      <section class="section" id="problema">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Por qué nace este proyecto</p>
-            <h2 class="section-title">Crear una web sencilla debería ser más fácil</h2>
-            <span class="section-line" aria-hidden="true"></span>
-          </div>
-          <p class="section-body">
-            Muchas personas quieren crear una página web básica, pero se pierden
-            entre carpetas, archivos, hosting, GitHub y despliegue. Este
-            proyecto intenta reducir esa barrera con una base simple, explicada
-            paso a paso y pensada para aprender haciendo.
-          </p>
-
-          <div class="card-grid">
-            <article class="info-card">
-              <div class="card-icon icon-purple" aria-hidden="true">?</div>
-              <div>
-                <p class="card-label">Problema</p>
-                <h2>Demasiadas piezas al empezar</h2>
-                <p>
-                  HTML, CSS, imágenes, carpetas, Git y publicación suelen
-                  aparecer a la vez, y eso genera bloqueo en quienes empiezan.
-                </p>
-              </div>
-            </article>
-
-            <article class="info-card">
-              <div class="card-icon icon-blue" aria-hidden="true">✓</div>
-              <div>
-                <p class="card-label">Solución</p>
-                <h2>Una plantilla base clara</h2>
-                <p>
-                  El repositorio ofrece una web inicial, textos editables y una
-                  estructura sencilla para practicar sin depender de herramientas
-                  complejas.
-                </p>
-              </div>
-            </article>
-
-            <article class="info-card info-card-featured">
-              <div class="card-icon icon-outline" aria-hidden="true">↺</div>
-              <div>
-                <p class="card-label">Enfoque</p>
-                <h2>Aprender modificando</h2>
-                <p>
-                  La idea no es vender un curso, sino enseñar cómo cambiar una
-                  web, guardar versiones y compartir mejoras de forma
-                  colaborativa.
-                </p>
-              </div>
-              <span class="card-decor" aria-hidden="true">💡</span>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section" id="aprendizaje">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Qué aprenderás</p>
-            <h2 class="section-title">Conceptos básicos con uso práctico real</h2>
-            <span class="section-line" aria-hidden="true"></span>
-          </div>
-
-          <div class="card-grid">
-            <article class="info-card">
-              <div class="card-icon icon-purple" aria-hidden="true">1</div>
-              <div>
-                <p class="card-label">Base web</p>
-                <h2>Estructura de una página</h2>
-                <p>
-                  Entenderás cómo se organizan cabecera, secciones, enlaces y
-                  contenido dentro de un documento HTML.
-                </p>
-              </div>
-            </article>
-
-            <article class="info-card">
-              <div class="card-icon icon-blue" aria-hidden="true">2</div>
-              <div>
-                <p class="card-label">Contenido</p>
-                <h2>Modificar textos e imágenes</h2>
-                <p>
-                  Aprenderás a cambiar títulos, descripciones, llamadas a la
-                  acción, imágenes y elementos visibles sin romper la página.
-                </p>
-              </div>
-            </article>
-
-            <article class="info-card">
-              <div class="card-icon icon-purple" aria-hidden="true">3</div>
-              <div>
-                <p class="card-label">Estilos</p>
-                <h2>Ajustar colores y diseño</h2>
-                <p>
-                  Verás cómo retocar estilos CSS para adaptar el aspecto visual
-                  a tu proyecto sin rehacer toda la maquetación.
-                </p>
-              </div>
-            </article>
-
-            <article class="info-card">
-              <div class="card-icon icon-blue" aria-hidden="true">4</div>
-              <div>
-                <p class="card-label">Git y GitHub</p>
-                <h2>Guardar versiones con seguridad</h2>
-                <p>
-                  Practicarás lo básico de Git y GitHub para subir cambios,
-                  compararlos y mantener un historial claro del proyecto.
-                </p>
-              </div>
-            </article>
-
-            <article class="info-card">
-              <div class="card-icon icon-purple" aria-hidden="true">5</div>
-              <div>
-                <p class="card-label">Publicación</p>
-                <h2>Publicar una web sencilla</h2>
-                <p>
-                  El objetivo final es que puedas tener una página visible y
-                  compartirla sin miedo a perder el control de tu trabajo.
-                </p>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-testimonials" id="para-quien">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Para quién es</p>
-            <h2 class="section-title">Pensado para empezar con una base comprensible</h2>
-            <span class="section-line" aria-hidden="true"></span>
-          </div>
-
-          <div class="testimonial-list">
-            <article class="testimonial-card">
-              <blockquote>
-                Un punto de partida útil para alumnado que necesita entender
-                cómo se construye una web sencilla desde cero.
-              </blockquote>
-              <div class="person">
-                <div class="avatar avatar-one" aria-hidden="true">A</div>
-                <div>
-                  <p class="person-name">Alumnado</p>
-                  <p class="person-role">Primeros pasos en HTML, CSS y GitHub</p>
-                </div>
-              </div>
-            </article>
-
-            <article class="testimonial-card">
-              <blockquote>
-                Un recurso reutilizable para docentes que quieran enseñar con un
-                ejemplo editable, claro y fácil de compartir.
-              </blockquote>
-              <div class="person">
-                <div class="avatar avatar-two" aria-hidden="true">D</div>
-                <div>
-                  <p class="person-name">Docentes</p>
-                  <p class="person-role">Material base para prácticas guiadas</p>
-                </div>
-              </div>
-            </article>
-
-            <article class="testimonial-card">
-              <blockquote>
-                Una guía práctica para personas que empiezan con programación y
-                todavía no dominan la estructura de un proyecto web.
-              </blockquote>
-              <div class="person">
-                <div class="avatar avatar-one" aria-hidden="true">P</div>
-                <div>
-                  <p class="person-name">Personas principiantes</p>
-                  <p class="person-role">Aprendizaje paso a paso sin exceso técnico</p>
-                </div>
-              </div>
-            </article>
-
-            <article class="testimonial-card">
-              <blockquote>
-                Una base ligera para autónomos o pequeños equipos que necesitan
-                una primera página editable y fácil de mantener.
-              </blockquote>
-              <div class="person">
-                <div class="avatar avatar-two" aria-hidden="true">E</div>
-                <div>
-                  <p class="person-name">Autónomos y equipos pequeños</p>
-                  <p class="person-role">Proyectos simples con control de cambios</p>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-pricing" id="opensource">
-        <div class="container">
-          <article class="pricing-card">
-            <p class="pricing-small">Open source de verdad</p>
-            <h2 class="pricing-title">Copia, modifica, mejora y comparte</h2>
-            <p class="pricing-text">
-              Este proyecto está pensado para que puedas usarlo como plantilla,
-              practicar cambios, adaptarlo a tus necesidades y aprender a
-              colaborar desde GitHub con un flujo de trabajo sencillo.
-            </p>
-            <p class="pricing-value">Open source</p>
-            <div class="cta-actions">
-              <a
-                class="secondary-button"
-                href="https://github.com/Josegodev/Mi-primera-Web"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Explorar repositorio
-              </a>
-              <a class="primary-button" href="#aprendizaje">Ver qué aprenderás</a>
-            </div>
-            <p class="pricing-note">
-              Sin descuentos ficticios, sin planes premium y sin contenido
-              bloqueado.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section" id="guia">
-        <div class="container">
-          <div class="section-heading">
-            <p class="section-kicker">Flujo de trabajo</p>
-            <h2 class="section-title">Cinco pasos para llevar la web a producción</h2>
-            <span class="section-line" aria-hidden="true"></span>
-          </div>
-          <p class="section-body">
-            La meta es que entiendas el proceso completo: obtener la plantilla,
-            cambiarla, guardar versiones, subirlas a GitHub y publicar una
-            página funcional.
-          </p>
-
-          <div class="flow-grid">
-            <article class="step-card">
-              <p class="step-number">1</p>
-              <h3>Descargar o clonar el proyecto</h3>
-              <p>Empieza con una copia local del repositorio para poder editarla.</p>
-            </article>
-
-            <article class="step-card">
-              <p class="step-number">2</p>
-              <h3>Modificar la plantilla</h3>
-              <p>Cambia textos, imágenes, estilos y secciones según tu objetivo.</p>
-            </article>
-
-            <article class="step-card">
-              <p class="step-number">3</p>
-              <h3>Guardar cambios con Git</h3>
-              <p>Haz pequeños commits para mantener un historial comprensible.</p>
-            </article>
-
-            <article class="step-card">
-              <p class="step-number">4</p>
-              <h3>Subir cambios a GitHub</h3>
-              <p>Comparte el progreso y deja el proyecto accesible para revisarlo.</p>
-            </article>
-
-            <article class="step-card">
-              <p class="step-number">5</p>
-              <h3>Publicar la web</h3>
-              <p>Muestra el resultado final y sigue mejorándolo versión a versión.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section class="section section-pricing" id="participar">
-        <div class="container">
-          <article class="pricing-card">
-            <p class="pricing-small">Siguiente paso</p>
-            <h2 class="pricing-title">Explora la plantilla y crea tu primera página</h2>
-            <p class="pricing-text">
-              Si quieres aprender con un ejemplo real, recorre el repositorio,
-              modifica esta base y úsala para publicar una web sencilla con tu
-              propio contenido.
-            </p>
-            <div class="cta-actions">
-              <a
-                class="secondary-button"
-                href="https://github.com/Josegodev/Mi-primera-Web"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Ver proyecto en GitHub
-              </a>
-              <a class="primary-button" href="#top">Volver al inicio</a>
-            </div>
-            <p class="pricing-note">
-              Ideal para aprender paso a paso, practicar cambios pequeños y
-              entender cómo se versiona una web.
-            </p>
-          </article>
-        </div>
-      </section>
-    </main>
-
-    <footer class="site-footer">
-      <div class="container footer-content">
-        <div>
-          <a class="brand brand-footer" href="#top">Mi Primera Web</a>
-          <p class="footer-text">
-            Proyecto abierto para aprender HTML, CSS, Git y GitHub con una web
-            sencilla, modificable y fácil de publicar.
-          </p>
-        </div>
-
-        <div class="footer-links" id="footer-nav">
-          <div>
-            <h2>Proyecto</h2>
-            <a href="#problema">Problema y enfoque</a>
-            <a href="#opensource">Open source</a>
-            <a href="#participar">Cómo participar</a>
-          </div>
-          <div>
-            <h2>Guía</h2>
-            <a href="#aprendizaje">Qué aprenderás</a>
-            <a href="#guia">Flujo de trabajo</a>
-            <a
-              href="https://github.com/Josegodev/Mi-primera-Web"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Repositorio en GitHub
-            </a>
-          </div>
-        </div>
-
-        <div class="footer-bottom">
-          <p>© 2026 Mi Primera Web. Proyecto educativo y colaborativo.</p>
-          <a class="chat-button" href="#top" aria-label="Volver arriba">↑</a>
-        </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="footer-bottom">
+        <p>© 2026 Mi Primera Web. Proyecto educativo y colaborativo.</p>
+        <a class="chat-button" href="#top" aria-label="Volver arriba">↑</a>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
