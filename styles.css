@@ -6,12 +6,12 @@
   --text: #0f1b4c;
   --muted: #5f6987;
   --border: rgba(31, 45, 93, 0.14);
-  --primary: #33107a;
-  --primary-strong: #21085d;
+  --primary: #b91c1c;
+  --primary-strong: #7f1d1d;
   --accent: #1f74ff;
   --accent-soft: #dbe8ff;
-  --purple-soft: #eedcff;
-  --shadow: 0 14px 36px rgba(41, 20, 98, 0.16);
+  --purple-soft: #fee2e2;
+  --shadow: 0 14px 36px rgba(185, 28, 28, 0.16);
   --radius-lg: 24px;
   --radius-md: 16px;
   --radius-sm: 12px;
@@ -107,7 +107,7 @@ img {
 
 .icon-button:hover,
 .icon-button:focus-visible {
-  background: rgba(51, 16, 122, 0.08);
+  background: rgba(185, 28, 28, 0.08);
   outline: none;
 }
 
@@ -195,8 +195,8 @@ img {
   margin: 0;
   padding: 7px 12px;
   border-radius: 999px;
-  background: rgba(231, 211, 255, 0.8);
-  color: #6f3bb0;
+  background: rgba(254, 226, 226, 0.9);
+  color: #991b1b;
   font-size: 0.74rem;
   font-weight: 700;
   letter-spacing: 0.08em;
@@ -240,7 +240,7 @@ img {
 }
 
 .primary-button {
-  background: linear-gradient(180deg, #4516a0 0%, #2f0e72 100%);
+  background: linear-gradient(180deg, #dc2626 0%, #991b1b 100%);
   color: #fff;
   box-shadow: var(--shadow);
 }
@@ -303,7 +303,7 @@ img {
   width: 58px;
   height: 4px;
   border-radius: 999px;
-  background: linear-gradient(90deg, #2f0e72 0%, #276cff 100%);
+  background: linear-gradient(90deg, #991b1b 0%, #276cff 100%);
 }
 
 .section-body {
@@ -338,7 +338,7 @@ img {
 }
 
 .info-card-featured {
-  background: linear-gradient(180deg, #4b1aa9 0%, #35117c 100%);
+  background: linear-gradient(180deg, #dc2626 0%, #991b1b 100%);
   color: #fff;
   border-color: rgba(255, 255, 255, 0.16);
   overflow: hidden;
@@ -356,7 +356,7 @@ img {
 }
 
 .icon-purple {
-  background: linear-gradient(180deg, #6128d1 0%, #3f1499 100%);
+  background: linear-gradient(180deg, #ef4444 0%, #b91c1c 100%);
   color: #fff;
 }
 
@@ -470,9 +470,9 @@ blockquote {
 .pricing-card {
   padding: 28px 18px;
   border-radius: var(--radius-lg);
-  background: linear-gradient(180deg, #4a1aa7 0%, #2f0e72 100%);
+  background: linear-gradient(180deg, #dc2626 0%, #991b1b 100%);
   color: #fff;
-  box-shadow: 0 20px 42px rgba(47, 14, 114, 0.3);
+  box-shadow: 0 20px 42px rgba(185, 28, 28, 0.3);
   text-align: center;
 }
 
